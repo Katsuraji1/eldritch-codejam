@@ -1,4 +1,4 @@
-import blue1 from './blue1.png';
+import blue1 from './blue1.png'
 import blue2 from './blue2.png';
 import blue3 from './blue3.png';
 import blue4 from './blue4.png';
@@ -25,5 +25,6 @@ const cards = {
   blue11,
   blue12,
 }
+
 
 export default cards
