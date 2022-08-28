@@ -2240,44 +2240,7 @@ function veryharddiffShubNig () {
 }
 
 
-const infoBtn = document.querySelector('.infoBtn')
-const firstWindow = document.querySelector('.firstWindow')
-
-
-
-infoBtn.addEventListener('click',()=>{
-    firstWindow.classList.add('invisability')
-})
 
 document.querySelector('.reload').addEventListener('click',()=>{
 location.reload()
 })
-
-let isShow = true;
-
-document.querySelector('.yesBtn').addEventListener('click',()=>{
-    document.querySelector('.yesBtn').classList.add('invisability')
-isShow = false;
-return isShow
-})
-
-function setLocaleStorage () {
-    localStorage.setItem('isShow',isShow)
-}
-
-window.addEventListener('beforeunload',setLocaleStorage)
-
-function getSetLocaleStorage () {
-    if (localStorage.getItem('isShow')){
-        isShow = localStorage.getItem('isShow')
-    }
-}
-
-window.addEventListener('DOMContentLoaded', getSetLocaleStorage)
-
-if (localStorage.getItem('isShow')=='true'){
-    firstWindow.classList.add('visability')
-}
-else if (localStorage.getItem('isShow')=='false'){
-    firstWindow.classList.remove('visability')
-}
