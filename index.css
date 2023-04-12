@@ -1,0 +1,444 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+.infoBtn{
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    background-color: rgb(32, 5, 5);
+    border-radius: 10px;
+    border: solid red;
+    font-family: 'Courier New', Courier, monospace;
+    color: wheat;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.infoBtn:hover {
+    border: solid blue;
+    background-color: rgb(104, 5, 5);
+    cursor: pointer;
+}
+
+.yesBtn{
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    background-color: rgb(32, 5, 5);
+    border-radius: 10px;
+    border: solid red;
+    font-family: 'Courier New', Courier, monospace;
+    color: wheat;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.yesBtn:hover {
+    border: solid blue;
+    background-color: rgb(104, 5, 5);
+    cursor: pointer;
+}
+
+h1{
+    color: wheat;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+p{
+    color: wheat;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url('./assets/home.png');
+    background-size: 100vw 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+}
+
+.ancientContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transition: 1s;
+    opacity: 1;
+}
+
+.Azathoth{
+    width: 300px;
+    height: 350px;
+    background-image: url('./assets/Ancients/Azathoth.png');
+    background-size: 300px 350px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Azathoth:hover {
+   scale: 1.1;
+}
+
+.Cthulthu{
+    width: 300px;
+    height: 350px;
+    background-image: url('./assets/Ancients/Cthulthu.png');
+    background-size: 300px 350px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Cthulthu:hover {
+    scale: 1.1;
+ }
+
+.IogSothoth{
+    width: 300px;
+    height: 350px;
+    background-image: url('./assets/Ancients/IogSothoth.png');
+    background-size: 300px 350px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.IogSothoth:hover {
+    scale: 1.1;
+ }
+
+.ShubNig{
+    width: 300px;
+    height: 350px;
+    background-image: url('./assets/Ancients/ShubNiggurath.png');
+    background-size: 300px 350px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.ShubNig:hover {
+    scale: 1.1;
+ }
+
+.difficultyLevel{
+    width: auto;
+    height: auto;
+    display: none;
+    flex-direction: column;
+   align-items: center;
+}
+
+.veryEasy{
+    width: 170px;
+    height: 50px;
+    background-color: rgba(0, 0, 10, 0.5);
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: brown;
+    border-radius: 10px;
+    border: solid rgb(231, 8, 38);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.veryEasy:hover {
+    background-color: rgba(143, 43, 60, 0.5);
+    color: rgb(197, 194, 194);
+}
+
+.easy{
+    width: 170px;
+    height: 50px;
+    background-color: rgba(0, 0, 10, 0.5);
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: brown;
+    border-radius: 10px;
+    border: solid rgb(231, 8, 38);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.easy:hover{
+    background-color: rgba(143, 43, 60, 0.5);
+    color: rgb(197, 194, 194);
+}
+
+.normal{
+    width: 170px;
+    height: 50px;
+    background-color: rgba(0, 0, 10, 0.5);
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: brown;
+    border-radius: 10px;
+    border: solid rgb(231, 8, 38);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.normal:hover {
+    background-color: rgba(143, 43, 60, 0.5);
+    color: rgb(197, 194, 194);
+}
+
+.hard{
+    width: 170px;
+    height: 50px;
+    background-color: rgba(0, 0, 10, 0.5);
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: brown;
+    border-radius: 10px;
+    border: solid rgb(231, 8, 38);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.hard:hover{
+    background-color: rgba(143, 43, 60, 0.5);
+    color: rgb(197, 194, 194);
+}
+
+.veryHard{
+    width: 170px;
+    height: 50px;
+    background-color: rgba(0, 0, 10, 0.5);
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: brown;
+    border-radius: 10px;
+    border: solid rgb(231, 8, 38);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.veryHard:hover{
+    background-color: rgba(143, 43, 60, 0.5);
+    color: rgb(197, 194, 194);
+}
+
+.cardTracker {
+    width: 600px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+.decTracker{
+    width: 300px;
+    height: 350px;
+    margin: 10px; 
+    text-align: center;
+    flex-direction: column;
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 620px;
+    margin: 10px; 
+}
+
+.firstStep{
+    width: 260px;
+    margin: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondStep{
+    width: 260px;
+    margin: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thirdStep{
+    width: 260px;
+    margin: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstStepFirstPoint{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50px;
+}
+
+.firstStepSecondPoint{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50px;
+}
+
+.firstStepThirdPoint{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50px;
+}
+
+.secondStepFirstPoint{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50px;
+}
+
+.secondStepSecondPoint{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50px;
+}
+
+.secondStepThirdPoint{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50px;
+}
+
+
+.thirdStepFirstPoint{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50px;
+}
+
+.thirdStepSecondPoint{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50px;
+}
+
+.thirdStepThirdPoint{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50px;
+}
+
+.commonCard{
+    width: 200px;
+    height: 290px;
+    background-image: url('./assets/MythicCards/E3HW7CF3FM3J1551394881275.gif') ;
+    background-size: 200px 290px;
+    cursor: pointer;
+    display: none;
+}
+
+.currentCard{
+    width: 200px;
+    height: 290px;
+    background-size: 200px 290px;
+    display: none;
+}
+
+
+span{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.visability {
+    display: flex;
+}
+
+.invisability {
+    display:none
+}
+
+.hideAncient{
+display: none;
+}
+
+.reload {
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(32, 5, 5);
+    border: solid red;
+    border-radius: 10px;
+    color: wheat;
+    transition: 1s;
+}
+
+.reload:hover {
+    border: solid blue;
+    background-color: rgb(104, 5, 5);
+    cursor: pointer;
+}
+
+
+
+.difficultyLevel1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
